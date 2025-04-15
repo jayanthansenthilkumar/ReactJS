@@ -1,0 +1,76 @@
+:root {
+  font-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #5a5c69;
+  background-color: #f8f9fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: #4e73df;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #4e73df;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px auto #4e73df;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f8f9fc;
+    background-color: #2a2a2a;
+  }
+  button {
+    background-color: #1a1a1a;
+  }
+}
