@@ -4,7 +4,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { 
   BookOpen, Shield, Heart, Users, 
   GraduationCap, Settings, Home,
-  MessageSquare, Info, Headphones
+  MessageSquare, Info, Headphones, 
+  Calendar, User, MapPin, Award
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -132,6 +133,34 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
             icon={Users} 
             label="Social" 
             active={pathname === '/social'} 
+          />
+        </SidebarGroup>
+        
+        <SidebarGroup title="Community">
+          <SidebarItem 
+            to="/students" 
+            icon={User} 
+            label="Students" 
+            active={pathname === '/students'} 
+          />
+          <SidebarItem 
+            to="/mentors" 
+            icon={GraduationCap} 
+            label="Mentors" 
+            active={pathname === '/mentors'} 
+          />
+          <SidebarItem 
+            to="/events" 
+            icon={Calendar} 
+            label="Events" 
+            active={pathname === '/events'} 
+            badge={2}
+          />
+          <SidebarItem 
+            to="/programs" 
+            icon={Award} 
+            label="Programs" 
+            active={pathname === '/programs'} 
           />
         </SidebarGroup>
         

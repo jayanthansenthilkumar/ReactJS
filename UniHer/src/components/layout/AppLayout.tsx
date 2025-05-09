@@ -20,6 +20,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const isMobile = useIsMobile();
   const location = useLocation();
+  const isDashboard = location.pathname === '/dashboard';
 
   // Close sidebar on route change for mobile
   useEffect(() => {
@@ -35,18 +36,32 @@ const AppLayout: React.FC<AppLayoutProps> = ({
     }
   }, [isMobile, showSidebar]);
 
+  // Add effect to prevent scrolling on body when sidebar is open on mobile
+  useEffect(() => {
+    if (isMobile && isSidebarOpen && showSidebar) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMobile, isSidebarOpen, showSidebar]);
+
   const toggleSidebar = () => {
     setIsSidebarOpen(prev => !prev);
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col overflow-x-hidden">
       <Navbar 
         toggleSidebar={toggleSidebar} 
         isLoggedIn={showSidebar}
+        isFixed={true}
       />
       
-      <div className="flex flex-1">
+      <div className="flex flex-1 mt-16"> {/* Added mt-16 to account for fixed navbar */}
         {showSidebar && <Sidebar isOpen={isSidebarOpen} />}
         
         <main className={`flex-1 transition-all duration-300 ${showSidebar ? 'md:ml-64' : ''}`}>
@@ -64,7 +79,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({
         </main>
       </div>
       
-      {!hideFooter && <Footer />}
+      {!hideFooter && !isDashboard && <Footer />}
     </div>
   );
 };

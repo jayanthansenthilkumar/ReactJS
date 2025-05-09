@@ -7,7 +7,7 @@ import AISidebar from '@/components/dashboard/AISidebar';
 
 const Dashboard = () => {
   return (
-    <AppLayout showSidebar>
+    <AppLayout showSidebar hideFooter>
       <div className="mb-8">
         <h1 className="text-3xl font-heading font-bold mb-6">Dashboard</h1>
         

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -25,9 +24,10 @@ import { cn } from '@/lib/utils';
 interface NavbarProps {
   toggleSidebar?: () => void;
   isLoggedIn?: boolean;
+  isFixed?: boolean;
 }
 
-const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false }) => {
+const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false, isFixed = false }) => {
   const isMobile = useIsMobile();
   const location = useLocation();
   const [notifications, setNotifications] = useState([
@@ -48,7 +48,10 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false }) =>
   const isHomePage = location.pathname === '/';
 
   return (
-    <nav className="bg-white border-b border-border sticky top-0 z-10">
+    <nav className={cn(
+      "bg-white border-b border-border z-30",
+      isFixed ? "fixed top-0 left-0 right-0" : "sticky top-0"
+    )}>
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
           {isLoggedIn && (
@@ -75,7 +78,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false }) =>
               <NavigationMenuList>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Features</NavigationMenuTrigger>
-                  <NavigationMenuContent>
+                  <NavigationMenuContent className="z-30 bg-white">
                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                       <li className="row-span-3">
                         <NavigationMenuLink asChild>
@@ -139,6 +142,59 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false }) =>
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
+                
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>Community</NavigationMenuTrigger>
+                  <NavigationMenuContent className="z-30 bg-white">
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
+                      <li>
+                        <Link
+                          to="/mentors"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Mentors</div>
+                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            Connect with experienced mentors in various fields
+                          </p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/students"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Student Directory</div>
+                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            Connect with fellow students across universities
+                          </p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/events"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Events</div>
+                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            Find workshops, networking events, and more
+                          </p>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          to="/programs"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Programs</div>
+                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            Join structured learning and development programs
+                          </p>
+                        </Link>
+                      </li>
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+                
                 <NavigationMenuItem>
                   <Link to="/about" className={navigationMenuTriggerStyle()}>
                     About
@@ -168,7 +224,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false }) =>
                     )}
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-80">
+                <DropdownMenuContent align="end" className="w-80 z-30">
                   <div className="flex items-center justify-between px-4 py-2 border-b">
                     <h3 className="font-medium">Notifications</h3>
                     <Button 
@@ -219,7 +275,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false }) =>
                     <User className="h-5 w-5" />
                   </Button>
                 </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-56">
+                <DropdownMenuContent align="end" className="w-56 z-30 bg-white">
                   <div className="flex items-center gap-2 p-2 border-b">
                     <div className="w-8 h-8 rounded-full bg-uniher-purple-light flex items-center justify-center">
                       <span className="text-uniher-purple text-xs font-bold">JD</span>
@@ -276,7 +332,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false }) =>
                 )} />
               </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="w-full">
+            <DropdownMenuContent className="w-[calc(100vw-2rem)] z-30 bg-white">
               <DropdownMenuItem asChild>
                 <Link to="/academics">Academics</Link>
               </DropdownMenuItem>
@@ -291,6 +347,19 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, isLoggedIn = false }) =>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
                 <Link to="/social">Social</Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link to="/mentors">Mentors</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/students">Students</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/events">Events</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/programs">Programs</Link>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem asChild>

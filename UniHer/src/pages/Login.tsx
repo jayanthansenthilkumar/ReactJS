@@ -8,6 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/components/ui/use-toast';
 import AppLayout from '@/components/layout/AppLayout';
+import DummyCredentials from '@/components/login/DummyCredentials';
 
 const Login = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -20,20 +21,53 @@ const Login = () => {
     e.preventDefault();
     setIsLoading(true);
     
-    // Simulating login for demo purposes
-    setTimeout(() => {
-      setIsLoading(false);
-      toast({
-        title: "Login successful",
-        description: "Welcome back to UniHer!",
-      });
-      navigate('/dashboard');
-    }, 1500);
+    // Check for dummy credentials
+    if (email === 'student@uniher.edu' && password === 'student123') {
+      // Student login
+      setTimeout(() => {
+        setIsLoading(false);
+        toast({
+          title: "Login successful",
+          description: "Welcome back, Jane Doe!",
+        });
+        navigate('/dashboard');
+      }, 1500);
+    } else if (email === 'mentor@uniher.edu' && password === 'mentor123') {
+      // Mentor login
+      setTimeout(() => {
+        setIsLoading(false);
+        toast({
+          title: "Login successful",
+          description: "Welcome back, Dr. Sarah Johnson!",
+        });
+        navigate('/dashboard');
+      }, 1500);
+    } else if (email === 'admin@uniher.edu' && password === 'admin123') {
+      // Admin login
+      setTimeout(() => {
+        setIsLoading(false);
+        toast({
+          title: "Login successful",
+          description: "Welcome back, Admin!",
+        });
+        navigate('/dashboard');
+      }, 1500);
+    } else {
+      // Demo mode - allow any login
+      setTimeout(() => {
+        setIsLoading(false);
+        toast({
+          title: "Login successful",
+          description: "Welcome to UniHer!",
+        });
+        navigate('/dashboard');
+      }, 1500);
+    }
   };
 
   return (
     <AppLayout hideFooter>
-      <div className="flex items-center justify-center min-h-[80vh]">
+      <div className="flex flex-col items-center justify-center min-h-[80vh] py-8">
         <Card className="w-full max-w-md">
           <CardHeader className="space-y-1">
             <CardTitle className="text-2xl font-heading">Login to UniHer</CardTitle>
@@ -91,6 +125,8 @@ const Login = () => {
             </CardFooter>
           </form>
         </Card>
+        
+        <DummyCredentials />
       </div>
     </AppLayout>
   );
