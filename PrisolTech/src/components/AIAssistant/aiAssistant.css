@@ -1,0 +1,23 @@
+/* AI Assistant specific scrollbar styling */
+.ai-assistant-container ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.ai-assistant-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Target all scrollable elements inside the AI Assistant */
+.ai-assistant-container *::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.ai-assistant-container * {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}

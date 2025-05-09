@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "67e53105ec8efa9027ee8490"
+  },
+  "gameCategories": [
+    {
+      "id": "tamil-word-match",
+      "title": "Tamil Word Match",
+      "description": "Match Tamil words with their meanings or images",
+      "tasks": [
+        {
+          "id": "tamil-match-words",
+          "title": "Task 1: Match Words with Images",
+          "description": "Match Tamil words with their corresponding images",
+          "isUnlocked": true,
+          "category": "tamil-word-match",
+          "slug": "match-words",
+          "wordPairs": [
+            {
+              "word": "தண்ணீர்",
+              "translation": "Water",
+              "imageUrl": "/images/water.png"
+            },
+            {
+              "word": "உணவு",
+              "translation": "Food",
+              "imageUrl": "/images/food.png"
+            },
+            {
+              "word": "நண்பன்",
+              "translation": "Friend",
+              "imageUrl": "/images/friend.png"
+            },
+            {
+              "word": "வீடு",
+              "translation": "House",
+              "imageUrl": "/images/house.png"
+            },
+            {
+              "word": "புத்தகம்",
+              "translation": "Book",
+              "imageUrl": "/images/book.png"
+            },
+            {
+              "word": "பள்ளி",
+              "translation": "School",
+              "imageUrl": "/images/school.png"
+            }
+          ]
+        },
+        {
+          "id": "tamil-sentence-building",
+          "title": "Task 2: Sentence Building",
+          "description": "Build correct Tamil sentences by arranging words",
+          "isUnlocked": true,
+          "category": "tamil-word-match",
+          "slug": "sentence-building",
+          "sentences": [
+            {
+              "words": [
+                "நான்",
+                "பள்ளிக்கு",
+                "செல்கிறேன்"
+              ],
+              "translation": "I am going to school"
+            },
+            {
+              "words": [
+                "என்",
+                "பெயர்",
+                "ராம்"
+              ],
+              "translation": "My name is Ram"
+            },
+            {
+              "words": [
+                "இன்று",
+                "வானம்",
+                "மிகவும்",
+                "அழகாக",
+                "உள்ளது"
+              ],
+              "translation": "The sky is very beautiful today"
+            }
+          ]
+        },
+        {
+          "id": "tamil-synonym-search",
+          "title": "Task 3: Synonym Search",
+          "description": "Find synonyms for Tamil words",
+          "isUnlocked": true,
+          "category": "tamil-word-match",
+          "slug": "synonym-search",
+          "wordSets": [
+            {
+              "word": "சிறப்பான",
+              "translation": "Excellent",
+              "synonyms": [
+                "அருமையான",
+                "மிகச்சிறந்த",
+                "உயர்ந்த"
+              ]
+            },
+            {
+              "word": "மகிழ்ச்சி",
+              "translation": "Happy",
+              "synonyms": [
+                "சந்தோஷம்",
+                "ஆனந்தம்",
+                "களிப்பு"
+              ]
+            },
+            {
+              "word": "அழகு",
+              "translation": "Beautiful",
+              "synonyms": [
+                "அழகான",
+                "நேர்த்தி",
+                "கவர்ச்சி"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malayalam-word-match",
+      "title": "Malayalam Word Match",
+      "description": "Match Malayalam words with their meanings or images",
+      "tasks": [
+        {
+          "id": "malayalam-match-words",
+          "title": "Task 1: Match Words with Images",
+          "description": "Match Malayalam words with their corresponding images",
+          "isUnlocked": true,
+          "category": "malayalam-word-match",
+          "slug": "match-words",
+          "wordPairs": [
+            {
+              "word": "വെള്ളം",
+              "translation": "Water",
+              "imageUrl": "/images/water.png"
+            },
+            {
+              "word": "ആഹാരം",
+              "translation": "Food",
+              "imageUrl": "/images/food.png"
+            },
+            {
+              "word": "സുഹൃത്ത്",
+              "translation": "Friend",
+              "imageUrl": "/images/friend.png"
+            },
+            {
+              "word": "വീട്",
+              "translation": "House",
+              "imageUrl": "/images/house.png"
+            },
+            {
+              "word": "പുസ്തകം",
+              "translation": "Book",
+              "imageUrl": "/images/book.png"
+            },
+            {
+              "word": "സ്കൂൾ",
+              "translation": "School",
+              "imageUrl": "/images/school.png"
+            }
+          ]
+        },
+        {
+          "id": "malayalam-sentence-building",
+          "title": "Task 2: Sentence Building",
+          "description": "Build correct Malayalam sentences by arranging words",
+          "isUnlocked": true,
+          "category": "malayalam-word-match",
+          "slug": "sentence-building",
+          "sentences": [
+            {
+              "words": [
+                "ഞാൻ",
+                "സ്കൂളിൽ",
+                "പോകുന്നു"
+              ],
+              "translation": "I am going to school"
+            },
+            {
+              "words": [
+                "എന്റെ",
+                "പേര്",
+                "രാം"
+              ],
+              "translation": "My name is Ram"
+            },
+            {
+              "words": [
+                "ഇന്ന്",
+                "ആകാശം",
+                "വളരെ",
+                "സുന്ദരമാണ്"
+              ],
+              "translation": "The sky is very beautiful today"
+            }
+          ]
+        },
+        {
+          "id": "malayalam-synonym-search",
+          "title": "Task 3: Synonym Search",
+          "description": "Find synonyms for Malayalam words",
+          "isUnlocked": true,
+          "category": "malayalam-word-match",
+          "slug": "synonym-search",
+          "wordSets": [
+            {
+              "word": "മികച്ച",
+              "translation": "Excellent",
+              "synonyms": [
+                "അതിശയകരം",
+                "വിശിഷ്ടം",
+                "ഉന്നതം"
+              ]
+            },
+            {
+              "word": "സന്തോഷം",
+              "translation": "Happy",
+              "synonyms": [
+                "ആനന്ദം",
+                "സുഖം",
+                "ഹർഷം"
+              ]
+            },
+            {
+              "word": "സുന്ദരം",
+              "translation": "Beautiful",
+              "synonyms": [
+                "മനോഹരം",
+                "ചന്തം",
+                "ഭംഗി"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memory-match",
+      "title": "Memory Match",
+      "description": "Test your memory by matching pairs of cards",
+      "tasks": [
+        {
+          "id": "memory-easy",
+          "title": "Task 1: Easy Level",
+          "description": "Match pairs in a 4x4 grid of cards",
+          "isUnlocked": true,
+          "category": "memory-match",
+          "slug": "easy",
+          "gridSize": {
+            "rows": 4,
+            "cols": 4
+          }
+        },
+        {
+          "id": "memory-medium",
+          "title": "Task 2: Medium Level",
+          "description": "Match pairs in a 6x4 grid of cards",
+          "isUnlocked": false,
+          "category": "memory-match",
+          "slug": "medium",
+          "gridSize": {
+            "rows": 6,
+            "cols": 4
+          }
+        },
+        {
+          "id": "memory-hard",
+          "title": "Task 3: Hard Level",
+          "description": "Match pairs in a 6x6 grid of cards",
+          "isUnlocked": false,
+          "category": "memory-match",
+          "slug": "hard",
+          "gridSize": {
+            "rows": 6,
+            "cols": 6
+          }
+        }
+      ]
+    }
+  ]
+}]

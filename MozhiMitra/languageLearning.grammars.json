@@ -1,0 +1,253 @@
+ [{
+  "_id": {
+    "$oid": "67d6648f9e7121aeae5412ef"
+  },
+  "tamilGrammar": {
+    "sentenceStructure": {
+      "description": "SOV (Subject-Object-Verb) order",
+      "examples": [
+        {
+          "example": "நான் புத்தகம் வாங்கினேன்",
+          "transliteration": "Nāṉ puttakam vāṅkiṉēṉ",
+          "translation": "I bought a book"
+        }
+      ]
+    },
+    "nouns": {
+      "cases": {
+        "description": "8 grammatical cases with suffixes (e.g., Nominative, Accusative, Dative)",
+        "examples": [
+          {
+            "example": "புத்தகம் (Nominative)",
+            "transliteration": "Puttakam",
+            "translation": "Book"
+          },
+          {
+            "example": "புத்தகத்திற்கு (Dative)",
+            "transliteration": "Puttakattirku",
+            "translation": "To the book"
+          }
+        ]
+      }
+    },
+    "pronouns": {
+      "possessive": {
+        "description": "Used to show ownership",
+        "examples": [
+          {
+            "example": "என் வீடு",
+            "transliteration": "Eṉ vīṭu",
+            "translation": "My house"
+          },
+          {
+            "example": "உன் பெயர்",
+            "transliteration": "Uṉ peyar",
+            "translation": "Your name"
+          }
+        ]
+      }
+    },
+    "verbs": {
+      "passiveVoice": {
+        "description": "Passive form of verbs",
+        "examples": [
+          {
+            "example": "புத்தகம் வாசிக்கப்பட்டது",
+            "transliteration": "Puttakam vāsikkapattatu",
+            "translation": "The book was read"
+          }
+        ]
+      },
+      "causative": {
+        "description": "Shows someone causing an action",
+        "examples": [
+          {
+            "example": "அவன் அவளை அழ வைத்தான்",
+            "transliteration": "Avaṉ avaḷai azha vaiththān",
+            "translation": "He made her cry"
+          }
+        ]
+      }
+    },
+    "adjectives": {
+      "comparativeSuperlative": {
+        "description": "Comparison between objects",
+        "examples": [
+          {
+            "example": "அவன் உயர்ந்தவன்",
+            "transliteration": "Avaṉ uyarndhavaṉ",
+            "translation": "He is taller"
+          },
+          {
+            "example": "அவன் மிக உயர்ந்தவன்",
+            "transliteration": "Avaṉ miga uyarndhavaṉ",
+            "translation": "He is the tallest"
+          }
+        ]
+      }
+    },
+    "adverbs": {
+      "frequency": {
+        "description": "Adverbs indicating how often",
+        "examples": [
+          {
+            "example": "அவன் எப்பொழுதும் காலையிலே ஓடுகிறான்",
+            "transliteration": "Avaṉ eppoḻudum kālaiyilē ōṭukiṟāṉ",
+            "translation": "He always runs in the morning"
+          }
+        ]
+      }
+    },
+    "interjections": {
+      "expressive": {
+        "description": "Used to show emotions",
+        "examples": [
+          {
+            "example": "ஆஹா! இது அருமை!",
+            "transliteration": "Āhā! Itu arumai!",
+            "translation": "Wow! This is amazing!"
+          }
+        ]
+      }
+    },
+    "numbers": {
+      "description": "Cardinal and Ordinal numbers",
+      "examples": [
+        {
+          "example": "ஒன்று, இரண்டு, மூன்று",
+          "transliteration": "Oṉṟu, iraṇṭu, mūṉṟu",
+          "translation": "One, two, three"
+        },
+        {
+          "example": "முதலாவது, இரண்டாவது",
+          "transliteration": "Mutalāvatu, iraṇṭāvatu",
+          "translation": "First, second"
+        }
+      ]
+    }
+  },
+  "malayalamGrammar": {
+    "sentenceStructure": {
+      "description": "SOV (Subject-Object-Verb) order",
+      "examples": [
+        {
+          "example": "ഞാൻ പുസ്തകം വാങ്ങി",
+          "transliteration": "Ñān pustakaṁ vāṅṅi",
+          "translation": "I bought a book"
+        }
+      ]
+    },
+    "nouns": {
+      "cases": {
+        "description": "7 grammatical cases with suffixes",
+        "examples": [
+          {
+            "example": "പുസ്തകം (Nominative)",
+            "transliteration": "Pustakaṁ",
+            "translation": "Book"
+          },
+          {
+            "example": "പുസ്തകത്തിനു (Dative)",
+            "transliteration": "Pustakatinu",
+            "translation": "To the book"
+          }
+        ]
+      }
+    },
+    "pronouns": {
+      "possessive": {
+        "description": "Used to show ownership",
+        "examples": [
+          {
+            "example": "എന്റെ വീട്",
+            "transliteration": "Ente vīṭŭ",
+            "translation": "My house"
+          },
+          {
+            "example": "നിന്റെ പേര്",
+            "transliteration": "Ninte peru",
+            "translation": "Your name"
+          }
+        ]
+      }
+    },
+    "verbs": {
+      "passiveVoice": {
+        "description": "Passive form of verbs",
+        "examples": [
+          {
+            "example": "പുസ്തകം വായിക്കപ്പെട്ടു",
+            "transliteration": "Pustakam vāyikkappettu",
+            "translation": "The book was read"
+          }
+        ]
+      },
+      "causative": {
+        "description": "Shows someone causing an action",
+        "examples": [
+          {
+            "example": "അവൻ അവളെ കരയിച്ചു",
+            "transliteration": "Avaṉ avaḷe karayichchu",
+            "translation": "He made her cry"
+          }
+        ]
+      }
+    },
+    "adjectives": {
+      "comparativeSuperlative": {
+        "description": "Comparison between objects",
+        "examples": [
+          {
+            "example": "അവൻ വലുതാണ്",
+            "transliteration": "Avaṉ valuthāṇ",
+            "translation": "He is bigger"
+          },
+          {
+            "example": "അവൻ ഏറ്റവും വലുതാണ്",
+            "transliteration": "Avaṉ ettāvum valuthāṇ",
+            "translation": "He is the biggest"
+          }
+        ]
+      }
+    },
+    "adverbs": {
+      "frequency": {
+        "description": "Adverbs indicating how often",
+        "examples": [
+          {
+            "example": "അവൻ എപ്പോഴും നേരത്തെ എത്തും",
+            "transliteration": "Avaṉ eppozhum nērathe etthum",
+            "translation": "He always arrives early"
+          }
+        ]
+      }
+    },
+    "interjections": {
+      "expressive": {
+        "description": "Used to show emotions",
+        "examples": [
+          {
+            "example": "അച്ഛാ! ഇതെന്ത് ഭംഗിയാണു!",
+            "transliteration": "Acchā! Ithenthu bhamgiyāṇu!",
+            "translation": "Wow! How beautiful this is!"
+          }
+        ]
+      }
+    },
+    "numbers": {
+      "description": "Cardinal and Ordinal numbers",
+      "examples": [
+        {
+          "example": "ഒന്ന്, രണ്ട്, മൂന്ന്",
+          "transliteration": "Onnu, randu, moonu",
+          "translation": "One, two, three"
+        },
+        {
+          "example": "ഒന്നാമത്, രണ്ടാമത്",
+          "transliteration": "Onnāmathu, randāmathu",
+          "translation": "First, second"
+        }
+      ]
+    }
+  }
+}]

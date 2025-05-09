@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "67e2c4f494f361cdf6d9a693"
+  },
+  "category": "tamil-vocabulary",
+  "title": "Tamil Vocabulary Quiz",
+  "description": "Test your knowledge of Tamil vocabulary",
+  "tasks": [
+    {
+      "id": "tamil-basic-words",
+      "title": "Task 1: Basic Tamil Words",
+      "description": "Learn and test your knowledge of basic Tamil words",
+      "isUnlocked": true,
+      "slug": "basic-words",
+      "questions": [
+        {
+          "question": "What is the Tamil word for 'water'?",
+          "options": [
+            "தண்ணீர் (Thanneer)",
+            "காற்று (Kaatru)",
+            "நெருப்பு (Neruppu)",
+            "மண் (Mann)"
+          ],
+          "correctAnswer": "தண்ணீர் (Thanneer)",
+          "explanation": "தண்ணீர் (Thanneer) means water in Tamil"
+        },
+        {
+          "question": "What is the Tamil word for 'food'?",
+          "options": [
+            "உணவு (Unavu)",
+            "வீடு (Veedu)",
+            "பள்ளி (Palli)",
+            "புத்தகம் (Pusthakam)"
+          ],
+          "correctAnswer": "உணவு (Unavu)",
+          "explanation": "உணவு (Unavu) means food in Tamil"
+        },
+        {
+          "question": "What is the Tamil word for 'friend'?",
+          "options": [
+            "நண்பன் (Nanban)",
+            "குடும்பம் (Kudumbam)",
+            "ஆசிரியர் (Aasiriyar)",
+            "மருத்துவர் (Maruthuvar)"
+          ],
+          "correctAnswer": "நண்பன் (Nanban)",
+          "explanation": "நண்பன் (Nanban) means friend in Tamil"
+        }
+      ]
+    },
+    {
+      "id": "tamil-sentences",
+      "title": "Task 2: Tamil Sentences",
+      "description": "Practice forming and understanding Tamil sentences",
+      "isUnlocked": false,
+      "slug": "sentences",
+      "questions": [
+        {
+          "question": "Which sentence means 'My name is Ramesh' in Tamil?",
+          "options": [
+            "என் பெயர் ரமேஷ் (En peyar Ramesh)",
+            "உனக்கு நன்றி (Unakku nandri)",
+            "நான் தமிழ் படிக்கிறேன் (Naan Tamil padikiren)",
+            "இது என் வீடு (Ithu en veedu)"
+          ],
+          "correctAnswer": "என் பெயர் ரமேஷ் (En peyar Ramesh)",
+          "explanation": "என் பெயர் ரமேஷ் means 'My name is Ramesh' in Tamil"
+        }
+      ]
+    },
+    {
+      "id": "tamil-grammar",
+      "title": "Task 3: Tamil Grammar",
+      "description": "Test your understanding of Tamil grammar rules",
+      "isUnlocked": false,
+      "slug": "grammar",
+      "questions": [
+        {
+          "question": "Which is the correct form of past tense for 'to go' in Tamil?",
+          "options": [
+            "போனேன் (Ponen)",
+            "போகிறேன் (Pokiren)",
+            "போவேன் (Poven)",
+            "போய் (Poy)"
+          ],
+          "correctAnswer": "போனேன் (Ponen)",
+          "explanation": "போனேன் (Ponen) is the past tense form of 'to go' in Tamil"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2c4f494f361cdf6d9a694"
+  },
+  "category": "malayalam-vocabulary",
+  "title": "Malayalam Vocabulary Quiz",
+  "description": "Test your knowledge of Malayalam vocabulary",
+  "tasks": [
+    {
+      "id": "malayalam-basic-words",
+      "title": "Task 1: Basic Malayalam Words",
+      "description": "Learn and test your knowledge of basic Malayalam words",
+      "isUnlocked": true,
+      "slug": "basic-words",
+      "questions": [
+        {
+          "question": "What is the Malayalam word for 'water'?",
+          "options": [
+            "വെള്ളം (Vellam)",
+            "കാറ്റ് (Kaattu)",
+            "തീ (Thee)",
+            "മണ്ണ് (Mannu)"
+          ],
+          "correctAnswer": "വെള്ളം (Vellam)",
+          "explanation": "വെള്ളം (Vellam) means water in Malayalam"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e2c4f494f361cdf6d9a695"
+  },
+  "category": "general-knowledge",
+  "title": "General Knowledge Quiz",
+  "description": "Test your general knowledge on various topics",
+  "tasks": [
+    {
+      "id": "world-capitals",
+      "title": "Task 1: World Capitals",
+      "description": "Test your knowledge of world capitals",
+      "isUnlocked": true,
+      "slug": "world-capitals",
+      "questions": [
+        {
+          "question": "What is the capital of France?",
+          "options": [
+            "Paris",
+            "London",
+            "Madrid",
+            "Rome"
+          ],
+          "correctAnswer": "Paris",
+          "explanation": "Paris is the capital city of France"
+        }
+      ]
+    }
+  ]
+}]

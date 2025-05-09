@@ -1,0 +1,136 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 270 30% 99%;
+    --foreground: 256 10% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 256 10% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 256 10% 20%;
+
+    --primary: 256 56% 75%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 20% 86%;
+    --secondary-foreground: 256 10% 20%;
+
+    --muted: 256 10% 91%;
+    --muted-foreground: 256 10% 50%;
+
+    --accent: 256 56% 95%;
+    --accent-foreground: 256 10% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 256 30% 90%;
+    --input: 256 30% 90%;
+    --ring: 256 56% 75%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 256 20% 10%;
+    --foreground: 0 0% 98%;
+
+    --card: 256 20% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 256 20% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 256 56% 75%;
+    --primary-foreground: 256 10% 20%;
+
+    --secondary: 256 20% 25%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 256 20% 20%;
+    --muted-foreground: 256 10% 70%;
+
+    --accent: 256 20% 25%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 256 20% 25%;
+    --input: 256 20% 25%;
+    --ring: 256 56% 75%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    overflow-x: hidden; /* Remove horizontal scrollbar */
+  }
+
+  /* Customize scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(126, 105, 171, 0.3);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(126, 105, 171, 0.5);
+  }
+
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(126, 105, 171, 0.3) transparent;
+  }
+}
+
+@layer components {
+  .feature-card {
+    @apply bg-white rounded-2xl shadow-md p-6 border border-sherise-pink/20 hover:shadow-lg transition-all duration-300 hover:border-sherise-purple/30;
+  }
+
+  .module-card {
+    @apply bg-white rounded-2xl shadow-md border border-sherise-blue/30 hover:border-sherise-purple/40 transition-all duration-300 hover:shadow-lg;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-br from-sherise-purple/80 to-sherise-purple-light;
+  }
+}

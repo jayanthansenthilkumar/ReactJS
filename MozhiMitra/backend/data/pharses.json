@@ -1,0 +1,1007 @@
+{
+    "tamilPhrases": {
+        "greetings": [
+            {
+                "phrase": "வணக்கம்",
+                "transliteration": "vaṇakkam",
+                "meaning": "Hello/Greetings"
+            },
+            {
+                "phrase": "நன்றி",
+                "transliteration": "nanṟi",
+                "meaning": "Thank you"
+            },
+            {
+                "phrase": "எப்படி இருக்கிறீர்கள்?",
+                "transliteration": "eppaṭi irukkiṟīrkaḷ?",
+                "meaning": "How are you?"
+            },
+            {
+                "phrase": "நான் நலமாக இருக்கிறேன்",
+                "transliteration": "nān nalamāka irukkiṟēn",
+                "meaning": "I am fine"
+            }
+        ],
+        "basics": [
+            {
+                "phrase": "என் பெயர்...",
+                "transliteration": "en peyar...",
+                "meaning": "My name is..."
+            },
+            {
+                "phrase": "எனக்கு புரியவில்லை",
+                "transliteration": "enakku puriyavillai",
+                "meaning": "I don't understand"
+            },
+            {
+                "phrase": "மன்னிக்கவும்",
+                "transliteration": "maṉṉikkavum",
+                "meaning": "Excuse me/Sorry"
+            },
+            {
+                "phrase": "தயவு செய்து",
+                "transliteration": "tayavu ceytu",
+                "meaning": "Please"
+            }
+        ],
+        "travel": [
+            {
+                "phrase": "எங்கே?",
+                "transliteration": "eṅkē?",
+                "meaning": "Where?"
+            },
+            {
+                "phrase": "எவ்வளவு?",
+                "transliteration": "evvaḷavu?",
+                "meaning": "How much?"
+            },
+            {
+                "phrase": "எனக்கு உதவி தேவை",
+                "transliteration": "eṉakku utavi tēvai",
+                "meaning": "I need help"
+            },
+            {
+                "phrase": "வழி காட்டுங்கள்",
+                "transliteration": "vaḻi kāṭṭuṅkaḷ",
+                "meaning": "Show me the way"
+            }
+        ],
+        "commonGreetings": [
+            {
+                "phrase": "வணக்கம்",
+                "transliteration": "Vanakkam",
+                "meaning": "Hello"
+            },
+            {
+                "phrase": "காலை வணக்கம்",
+                "transliteration": "Kaalai Vanakkam",
+                "meaning": "Good Morning"
+            },
+            {
+                "phrase": "மதியம் வணக்கம்",
+                "transliteration": "Mathiyam Vanakkam",
+                "meaning": "Good Afternoon"
+            },
+            {
+                "phrase": "மாலை வணக்கம்",
+                "transliteration": "Maalai Vanakkam",
+                "meaning": "Good Evening"
+            },
+            {
+                "phrase": "இரவு வணக்கம்",
+                "transliteration": "Iravu Vanakkam",
+                "meaning": "Good Night"
+            },
+            {
+                "phrase": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
+                "transliteration": "Neenga Eppadi Irukkirirgal?",
+                "meaning": "How are you? (Formal)"
+            },
+            {
+                "phrase": "நான் நலமாக இருக்கிறேன், நன்றி",
+                "transliteration": "Naan Nalamaga Irukkiren, Nandri",
+                "meaning": "I am fine, thank you"
+            },
+            {
+                "phrase": "உங்களை வரவேற்கிறேன்",
+                "transliteration": "Ungalai Varaverkiren",
+                "meaning": "Welcome (Formal)"
+            },
+            {
+                "phrase": "உங்களுக்கொரு நல்ல நாள்",
+                "transliteration": "Ungalukoru Nalla Naal",
+                "meaning": "Have a great day!"
+            },
+            {
+                "phrase": "பிறகு சந்திப்போம்",
+                "transliteration": "Piragu Sandhippom",
+                "meaning": "See you later"
+            },
+            {
+                "phrase": "தயவுசெய்து உட்காருங்கள்",
+                "transliteration": "Thayavu Seidhu Utkaringal",
+                "meaning": "Please have a seat"
+            }
+        ],
+        "informalGreetings": [
+            {
+                "phrase": "ஹாய்",
+                "transliteration": "Hai",
+                "meaning": "Hi"
+            },
+            {
+                "phrase": "எப்படி இருக்கிறாய்?",
+                "transliteration": "Eppadi Irukkirai?",
+                "meaning": "How are you?"
+            },
+            {
+                "phrase": "என்ன விசேஷம்?",
+                "transliteration": "Enna Visesham?",
+                "meaning": "What’s up?"
+            },
+            {
+                "phrase": "எல்லாம் சரியா?",
+                "transliteration": "Ellam Sariya?",
+                "meaning": "How’s everything?"
+            },
+            {
+                "phrase": "நீண்ட நாட்களுக்கு பின் சந்திக்கிறோம்",
+                "transliteration": "Neenda Naadkalaikku Pin Sandikirrom",
+                "meaning": "Long time no see"
+            },
+            {
+                "phrase": "விரைவில் சந்திப்போம்",
+                "transliteration": "Viraivil Sandhippom",
+                "meaning": "See you soon"
+            },
+            {
+                "phrase": "பிறகு பாக்கலாம்",
+                "transliteration": "Piragu Paakkalam",
+                "meaning": "Catch you later"
+            },
+            {
+                "phrase": "வேடிக்கை பார்த்துக்கொள்",
+                "transliteration": "Vedaikkai Paarthukkoll",
+                "meaning": "Have fun"
+            },
+            {
+                "phrase": "உன்னை மிஸ் செய்கிறேன்",
+                "transliteration": "Unnai Miss Seikiren",
+                "meaning": "Miss you"
+            },
+            {
+                "phrase": "கவனமாக இரு",
+                "transliteration": "Kavanamaaga Iru",
+                "meaning": "Take care"
+            },
+            {
+                "phrase": "நாளை சந்திப்போம்",
+                "transliteration": "Naalai Sandhippom",
+                "meaning": "See you tomorrow"
+            },
+            {
+                "phrase": "நல்ல அதிர்ஷ்டம்",
+                "transliteration": "Nalla Adirstam",
+                "meaning": "Good luck"
+            }
+        ],
+        "festivalGreetings": [
+            {
+                "phrase": "இனிய பிறந்தநாள் வாழ்த்துக்கள்",
+                "transliteration": "Iniya Pirandha Naal Vaalthukkal",
+                "meaning": "Happy Birthday"
+            },
+            {
+                "phrase": "இனிய புத்தாண்டு வாழ்த்துக்கள்",
+                "transliteration": "Iniya Puthandu Vaalthukkal",
+                "meaning": "Happy New Year"
+            },
+            {
+                "phrase": "இனிய தீபாவளி வாழ்த்துக்கள்",
+                "transliteration": "Iniya Deepavali Vaalthukkal",
+                "meaning": "Happy Diwali"
+            },
+            {
+                "phrase": "இனிய கிறிஸ்துமஸ் வாழ்த்துக்கள்",
+                "transliteration": "Iniya Christmas Vaalthukkal",
+                "meaning": "Merry Christmas"
+            },
+            {
+                "phrase": "பொங்கல் வாழ்த்துக்கள்",
+                "transliteration": "Pongal Vaalthukkal",
+                "meaning": "Happy Pongal"
+            },
+            {
+                "phrase": "திருமண வாழ்த்துக்கள்",
+                "transliteration": "Thirumana Vaalthukkal",
+                "meaning": "Happy Wedding"
+            },
+            {
+                "phrase": "வாழ்த்துக்கள்",
+                "transliteration": "Vaalthukkal",
+                "meaning": "Congratulations"
+            },
+            {
+                "phrase": "சிறந்த வாழ்த்துக்கள்",
+                "transliteration": "Sirandha Vaalthukkal",
+                "meaning": "Best Wishes"
+            }
+        ],
+        "meetingAfterLongTime": [
+            {
+                "phrase": "நீண்ட நாட்களுக்கு பின் சந்திக்கிறோம்!",
+                "transliteration": "Neenda Naadkalaikku Pin Sandikkirrom!",
+                "meaning": "It’s been a long time!"
+            },
+            {
+                "phrase": "மீண்டும் சந்தித்ததில் மகிழ்ச்சி!",
+                "transliteration": "Meendum Sandhithathil Magizhchi!",
+                "meaning": "Glad to see you again!"
+            },
+            {
+                "phrase": "வாழ்க்கை எப்படி போகிறது?",
+                "transliteration": "Vaazhkkai Eppadi Pogirathu?",
+                "meaning": "How’s life going?"
+            },
+            {
+                "phrase": "நீங்கள் நலமாக இருக்கிறீர்கள் என்று நம்புகிறேன்",
+                "transliteration": "Neenga Nalamaga Irukkirirgal Endru Nambugiren",
+                "meaning": "Hope you are doing well"
+            }
+        ],
+        "departureGreetings": [
+            {
+                "phrase": "விடைபெறுகிறேன்",
+                "transliteration": "Vitaiperugiren",
+                "meaning": "Goodbye"
+            },
+            {
+                "phrase": "கவனமாக இருங்கள்",
+                "transliteration": "Kavanamaaga Irungal",
+                "meaning": "Take care"
+            },
+            {
+                "phrase": "பாதுகாப்பான பயணம்",
+                "transliteration": "Paadhugaappana Payanam",
+                "meaning": "Safe journey"
+            },
+            {
+                "phrase": "பிறகு சந்திப்போம்",
+                "transliteration": "Piragu Sandhippom",
+                "meaning": "See you later"
+            },
+            {
+                "phrase": "உன்னை நினைக்கிறேன்",
+                "transliteration": "Unnai Ninaikiren",
+                "meaning": "I will miss you"
+            }
+        ],
+        "respectfulGreetings": [
+            {
+                "phrase": "ஆசி வழங்குங்கள்",
+                "transliteration": "Aasi Vazhangungal",
+                "meaning": "Bless me"
+            },
+            {
+                "phrase": "நான் உங்களை மதிக்கிறேன்",
+                "transliteration": "Naan Ungalai Mathikkiren",
+                "meaning": "I respect you"
+            },
+            {
+                "phrase": "தயவுசெய்து மன்னிக்கவும்",
+                "transliteration": "Thayavuseidhu Mannikkavum",
+                "meaning": "Please forgive me"
+            },
+            {
+                "phrase": "நான் உங்களுக்கு உதவலாமா?",
+                "transliteration": "Naan Ungaluku Uthavalama?",
+                "meaning": "Can I help you?"
+            }
+        ],
+        "basicConversations": [
+            {
+                "phrase": "உங்கள் பெயர் என்ன?",
+                "transliteration": "Ungal Peyar Enna?",
+                "meaning": "What is your name?"
+            },
+            {
+                "phrase": "என் பெயர்...",
+                "transliteration": "En Peyar...",
+                "meaning": "My name is..."
+            },
+            {
+                "phrase": "உங்களை சந்தித்ததில் மகிழ்ச்சி",
+                "transliteration": "Ungalai Santhithathil Magizhchi",
+                "meaning": "Nice to meet you"
+            },
+            {
+                "phrase": "நீங்கள் எங்கிருந்து வருகிறீர்கள்?",
+                "transliteration": "Neenga Engirunthu Varugirirgal?",
+                "meaning": "Where are you from?"
+            },
+            {
+                "phrase": "நான் ... இலிருந்து வருகிறேன்",
+                "transliteration": "Naan ... Ilirunthu Varugiren",
+                "meaning": "I am from..."
+            },
+            {
+                "phrase": "நீங்கள் என்ன வேலை செய்கிறீர்கள்?",
+                "transliteration": "Neenga Enna Velai Seigirirgal?",
+                "meaning": "What do you do?"
+            },
+            {
+                "phrase": "நான் ஒரு மாணவன்/மாணவி",
+                "transliteration": "Naan Oru Maanavan/Maanavi",
+                "meaning": "I am a student"
+            },
+            {
+                "phrase": "நான் ... ஆக வேலை செய்கிறேன்",
+                "transliteration": "Naan ... Aaga Velai Seikiren",
+                "meaning": "I work as a..."
+            },
+            {
+                "phrase": "நீங்கள் திருமணமானவரா?",
+                "transliteration": "Neenga Thirumanamaana Vara?",
+                "meaning": "Are you married?"
+            },
+            {
+                "phrase": "ஆம், நான் திருமணமானவன்/திருமணமானவள்",
+                "transliteration": "Aam, Naan Thirumanamaanavan/Thirumanamaanaval",
+                "meaning": "Yes, I am married"
+            },
+            {
+                "phrase": "இல்லை, நான் திருமணமாகவில்லை",
+                "transliteration": "Illai, Naan Thirumanamaagavillai",
+                "meaning": "No, I am single"
+            }
+        ],
+        "casualConversations": [
+            {
+                "phrase": "எப்படி இருக்கிறீர்கள்?",
+                "transliteration": "Eppadi Irukkirirgal?",
+                "meaning": "How are you?"
+            },
+            {
+                "phrase": "நான் நலமாக இருக்கிறேன், நன்றி",
+                "transliteration": "Naan Nalamaga Irukkiren, Nandri",
+                "meaning": "I am fine, thank you"
+            },
+            {
+                "phrase": "நீங்கள் எப்படி?",
+                "transliteration": "Neenga Eppadi?",
+                "meaning": "What about you?"
+            },
+            {
+                "phrase": "நானும் நலமாக இருக்கிறேன்",
+                "transliteration": "Naanum Nalamaga Irukkiren",
+                "meaning": "I am also fine"
+            },
+            {
+                "phrase": "நீங்கள் என்ன செய்கிறீர்கள்?",
+                "transliteration": "Neenga Enna Seigirirgal?",
+                "meaning": "What are you doing?"
+            },
+            {
+                "phrase": "நான் வேலை செய்கிறேன்",
+                "transliteration": "Naan Velai Seigirren",
+                "meaning": "I am working"
+            },
+            {
+                "phrase": "நான் படிக்கிறேன்",
+                "transliteration": "Naan Padikkiren",
+                "meaning": "I am studying"
+            },
+            {
+                "phrase": "இன்று உங்கள் திட்டம் என்ன?",
+                "transliteration": "Indru Ungal Thittam Enna?",
+                "meaning": "What’s your plan for today?"
+            },
+            {
+                "phrase": "எனக்கு எந்த திட்டமும் இல்லை",
+                "transliteration": "Enakku Entha Thittamum Illai",
+                "meaning": "I have no plans"
+            },
+            {
+                "phrase": "நாம் வெளியில் போகலாமா?",
+                "transliteration": "Naam Veliyil Pogalama?",
+                "meaning": "Can we hangout?"
+            },
+            {
+                "phrase": "கண்டிப்பாக",
+                "transliteration": "Kandippaga",
+                "meaning": "Sure!"
+            }
+        ],
+        "askingForHelp": [
+            {
+                "phrase": "நீங்கள் எனக்கு உதவி செய்ய முடியுமா?",
+                "transliteration": "Neenga Enakku Uthavi Seiyya Mudiyuma?",
+                "meaning": "Can you help me?"
+            },
+            {
+                "phrase": "எனக்கு உதவி தேவை",
+                "transliteration": "Enakku Uthavi Thevai",
+                "meaning": "I need help"
+            },
+            {
+                "phrase": "நீங்கள் வழி காண்பிக்க முடியுமா?",
+                "transliteration": "Neenga Vali Kaanbikka Mudiyuma?",
+                "meaning": "Can you show me the way?"
+            },
+            {
+                "phrase": "நான் வழிதவறி விட்டேன்",
+                "transliteration": "Naan Vazhithavari Viten",
+                "meaning": "I am lost"
+            },
+            {
+                "phrase": "அருகில் உள்ள ஓட்டல் எங்கே?",
+                "transliteration": "Arugil Ulla Oattal Enge?",
+                "meaning": "Where is the nearest hotel?"
+            },
+            {
+                "phrase": "எனக்கு புரியவில்லை",
+                "transliteration": "Enakku Puriyavillai",
+                "meaning": "I don’t understand"
+            },
+            {
+                "phrase": "தயவுசெய்து மீண்டும் சொல்லவும்",
+                "transliteration": "Thayavu Seidhu Meendum Sollavum",
+                "meaning": "Can you repeat?"
+            }
+        ],
+        "basicRequests": [
+            {
+                "phrase": "எனக்கு தண்ணீர் கிடைக்குமா?",
+                "transliteration": "Enakku Thanneer Kidaikkuma?",
+                "meaning": "Can I get water?"
+            },
+            {
+                "phrase": "நீங்கள் டாக்சி அழைக்க முடியுமா?",
+                "transliteration": "Neenga Taxi Azhaiyka Mudiyuma?",
+                "meaning": "Can you call a taxi?"
+            },
+            {
+                "phrase": "கழிப்பறை எங்கே?",
+                "transliteration": "Kalipparai Enge?",
+                "meaning": "Where is the bathroom?"
+            },
+            {
+                "phrase": "நான் வீட்டுக்கு செல்லவேண்டும்",
+                "transliteration": "Naan Veetukku Sellavendum",
+                "meaning": "I need to go home"
+            },
+            {
+                "phrase": "எனக்கு பணம் இல்லை",
+                "transliteration": "Enakku Panam Illai",
+                "meaning": "I don’t have money"
+            },
+            {
+                "phrase": "என் போனைக் சார்ஜ் செய்யலாமா?",
+                "transliteration": "En Ponai Charge Seiyalama?",
+                "meaning": "Can I charge my phone?"
+            }
+        ],
+        "endingConversation": [
+            {
+                "phrase": "உங்களுடன் பேசுவது நன்றாக இருந்தது",
+                "transliteration": "Ungaludan Pesuvathu Nandraaga Irundhathu",
+                "meaning": "It was nice talking to you"
+            },
+            {
+                "phrase": "நான் இப்போது செல்லவேண்டும்",
+                "transliteration": "Naan Ippodhu Sellavendum",
+                "meaning": "I have to leave now"
+            },
+            {
+                "phrase": "பிறகு சந்திப்போம்",
+                "transliteration": "Piragu Sandhippom",
+                "meaning": "See you later"
+            },
+            {
+                "phrase": "கவனமாக இருங்கள்",
+                "transliteration": "Kavanamaaga Irungal",
+                "meaning": "Take care"
+            }
+        ]
+    },
+    "malayalamPhrases": {
+        "greetings": [
+            {
+                "phrase": "ഹലോ",
+                "transliteration": "Halō",
+                "meaning": "Hello/Greetings"
+            },
+            {
+                "phrase": "നന്ദി",
+                "transliteration": "Nandi",
+                "meaning": "Thank you"
+            },
+            {
+                "phrase": "സുഖമാണോ?",
+                "transliteration": "Sukhamaano?",
+                "meaning": "How are you?"
+            },
+            {
+                "phrase": "ഞാൻ സുഖമാണ്",
+                "transliteration": "Njan Sukhamāṇ",
+                "meaning": "I am fine"
+            }
+        ],
+        "basics": [
+            {
+                "phrase": "എന്റെ പേര്...",
+                "transliteration": "Ente Peru...",
+                "meaning": "My name is..."
+            },
+            {
+                "phrase": "എനിക്ക് മനസിലാകുന്നില്ല",
+                "transliteration": "Enikku Manasilākunnilla",
+                "meaning": "I don't understand"
+            },
+            {
+                "phrase": "ക്ഷമിക്കണം",
+                "transliteration": "Kshamikkanam",
+                "meaning": "Excuse me/Sorry"
+            },
+            {
+                "phrase": "ദയവായി",
+                "transliteration": "Dayavāyi",
+                "meaning": "Please"
+            }
+        ],
+        "travel": [
+            {
+                "phrase": "എവിടെ?",
+                "transliteration": "Evide?",
+                "meaning": "Where?"
+            },
+            {
+                "phrase": "എത്ര?",
+                "transliteration": "Ethra?",
+                "meaning": "How much?"
+            },
+            {
+                "phrase": "എനിക്ക് സഹായം വേണം",
+                "transliteration": "Enikku Sahayam Venam",
+                "meaning": "I need help"
+            },
+            {
+                "phrase": "വഴി കാണിച്ചുതരാമോ?",
+                "transliteration": "Vazhi Kaanichu Tharamo?",
+                "meaning": "Show me the way"
+            }
+        ],
+        "commonGreetings": [
+            {
+                "phrase": "സുപ്രഭാതം",
+                "transliteration": "Suprabhatham",
+                "meaning": "Good Morning"
+            },
+            {
+                "phrase": "ശുഭ മദ്യാഹ്നം",
+                "transliteration": "Shubha Madhyahnam",
+                "meaning": "Good Afternoon"
+            },
+            {
+                "phrase": "ശുഭ സന്ധ്യ",
+                "transliteration": "Shubha Sandhya",
+                "meaning": "Good Evening"
+            },
+            {
+                "phrase": "ശുഭ രാത്രി",
+                "transliteration": "Shubha Rathri",
+                "meaning": "Good Night"
+            },
+            {
+                "phrase": "സുഖമാണോ?",
+                "transliteration": "Sukhamaano?",
+                "meaning": "How are you? (Formal)"
+            },
+            {
+                "phrase": "ഞാൻ സുഖമാണ്, നന്ദി",
+                "transliteration": "Njan Sukhamāṇ, Nandi",
+                "meaning": "I am fine, thank you"
+            },
+            {
+                "phrase": "സ്വാഗതം",
+                "transliteration": "Swagatham",
+                "meaning": "Welcome (Formal)"
+            },
+            {
+                "phrase": "നല്ല ഒരു ദിവസം ആശംസിക്കുന്നു",
+                "transliteration": "Nalla Oru Divasam Ashamsikkunnu",
+                "meaning": "Have a great day!"
+            },
+            {
+                "phrase": "പിന്നെ കാണാം",
+                "transliteration": "Pinne Kaanam",
+                "meaning": "See you later"
+            },
+            {
+                "phrase": "ദയവായി ഇരിക്കുക",
+                "transliteration": "Dayavāyi Irikkuka",
+                "meaning": "Please have a seat"
+            }
+        ],
+        "informalGreetings": [
+            {
+                "phrase": "ഹായ്",
+                "transliteration": "Hāy",
+                "meaning": "Hi"
+            },
+            {
+                "phrase": "എങ്ങനെയുണ്ട്?",
+                "transliteration": "Eṅganeyuṇṭ?",
+                "meaning": "How are you?"
+            },
+            {
+                "phrase": "എന്ത് സംഭവിക്കുന്നു?",
+                "transliteration": "Ent Sambhavikkunnu?",
+                "meaning": "What’s up?"
+            },
+            {
+                "phrase": "എല്ലാം ശരിയാണോ?",
+                "transliteration": "Ellam Shariyāṇo?",
+                "meaning": "How’s everything?"
+            },
+            {
+                "phrase": "വളരെക്കാലത്തിനു ശേഷം കണ്ടതിൽ സന്തോഷം",
+                "transliteration": "Valarekkālathinu Shesham Kandathil Santhosham",
+                "meaning": "Long time no see"
+            },
+            {
+                "phrase": "ഉടൻ കാണാം",
+                "transliteration": "Udan Kaanam",
+                "meaning": "See you soon"
+            },
+            {
+                "phrase": "പിന്നെ പറഞ്ഞോളാം",
+                "transliteration": "Pinne Paranjolam",
+                "meaning": "Catch you later"
+            },
+            {
+                "phrase": "ആസ്വദിക്കൂ",
+                "transliteration": "Aswadikkū",
+                "meaning": "Have fun"
+            },
+            {
+                "phrase": "നിന്നെ മിസ് ചെയ്യുന്നു",
+                "transliteration": "Ninne Miss Cheyyunnu",
+                "meaning": "Miss you"
+            },
+            {
+                "phrase": "ശ്രദ്ധയോടെ",
+                "transliteration": "Shraddhayōṭe",
+                "meaning": "Take care"
+            },
+            {
+                "phrase": "നാളെ കാണാം",
+                "transliteration": "Nale Kaanam",
+                "meaning": "See you tomorrow"
+            },
+            {
+                "phrase": "അദൃഷ്ടം നൽകട്ടെ",
+                "transliteration": "Adrishtam Nalkatte",
+                "meaning": "Good luck"
+            }
+        ],
+        "festivalGreetings": [
+            {
+                "phrase": "ജന്മദിനാശംസകൾ",
+                "transliteration": "Janmadinashamsakal",
+                "meaning": "Happy Birthday"
+            },
+            {
+                "phrase": "പുതുവത്സരാശംസകൾ",
+                "transliteration": "Puthuvalsarashamsakal",
+                "meaning": "Happy New Year"
+            },
+            {
+                "phrase": "ദീപാവലി ആശംസകൾ",
+                "transliteration": "Deepavali Ashamsakal",
+                "meaning": "Happy Diwali"
+            },
+            {
+                "phrase": "ക്രിസ്മസ് ആശംസകൾ",
+                "transliteration": "Christmas Ashamsakal",
+                "meaning": "Merry Christmas"
+            },
+            {
+                "phrase": "ഓണാശംസകൾ",
+                "transliteration": "Onashamsakal",
+                "meaning": "Happy Onam"
+            },
+            {
+                "phrase": "വിവാഹാശംസകൾ",
+                "transliteration": "Vivahashamsakal",
+                "meaning": "Happy Wedding"
+            },
+            {
+                "phrase": "ആശംസകൾ",
+                "transliteration": "Ashamsakal",
+                "meaning": "Congratulations"
+            },
+            {
+                "phrase": "മികച്ച ആശംസകൾ",
+                "transliteration": "Mikacha Ashamsakal",
+                "meaning": "Best Wishes"
+            }
+        ],
+        "meetingAfterLongTime": [
+            {
+                "phrase": "വളരെക്കാലത്തിനു ശേഷം!",
+                "transliteration": "Valarekkālathinu Shesham!",
+                "meaning": "It’s been a long time!"
+            },
+            {
+                "phrase": "വീണ്ടും കണ്ടതിൽ സന്തോഷം!",
+                "transliteration": "Veendum Kandathil Santhosham!",
+                "meaning": "Glad to see you again!"
+            },
+            {
+                "phrase": "ജീവിതം എങ്ങനെ പോകുന്നു?",
+                "transliteration": "Jeevitham Engane Pokunnu?",
+                "meaning": "How’s life going?"
+            },
+            {
+                "phrase": "നിങ്ങൾ സുഖമായിരിക്കുമെന്ന് പ്രതീക്ഷിക്കുന്നു",
+                "transliteration": "Ningal Sukhamāyirikkumennu Pratīkshikkunnu",
+                "meaning": "Hope you are doing well"
+            }
+        ],
+        "departureGreetings": [
+            {
+                "phrase": "വിട",
+                "transliteration": "Vida",
+                "meaning": "Goodbye"
+            },
+            {
+                "phrase": "ശ്രദ്ധയോടെ",
+                "transliteration": "Shraddhayōṭe",
+                "meaning": "Take care"
+            },
+            {
+                "phrase": "സുരക്ഷിതമായ യാത്ര",
+                "transliteration": "Surakshithamaya Yatra",
+                "meaning": "Safe journey"
+            },
+            {
+                "phrase": "പിന്നെ കാണാം",
+                "transliteration": "Pinne Kaanam",
+                "meaning": "See you later"
+            },
+            {
+                "phrase": "നിന്നെ മിസ് ചെയ്യാം",
+                "transliteration": "Ninne Miss Cheyyam",
+                "meaning": "I will miss you"
+            }
+        ],
+        "respectfulGreetings": [
+            {
+                "phrase": "എന്നെ അനുഗ്രഹിക്കുക",
+                "transliteration": "Enne Anugrahikkuka",
+                "meaning": "Bless me"
+            },
+            {
+                "phrase": "ഞാൻ നിങ്ങളെ ആദരിക്കുന്നു",
+                "transliteration": "Njan Ningale Aadarikunnu",
+                "meaning": "I respect you"
+            },
+            {
+                "phrase": "ദയവായി എന്നോട് ക്ഷമിക്കുക",
+                "transliteration": "Dayavāyi Ennod Kshamikkuka",
+                "meaning": "Please forgive me"
+            },
+            {
+                "phrase": "എനിക്ക് നിങ്ങളെ സഹായിക്കാമോ?",
+                "transliteration": "Enikku Ningale Sahayikkamo?",
+                "meaning": "Can I help you?"
+            }
+        ],
+        "basicConversations": [
+            {
+                "phrase": "നിന്റെ പേര് എന്താണ്?",
+                "transliteration": "Ninte Peru Enthanu?",
+                "meaning": "What is your name?"
+            },
+            {
+                "phrase": "എന്റെ പേര്...",
+                "transliteration": "Ente Peru...",
+                "meaning": "My name is..."
+            },
+            {
+                "phrase": "നിന്നെ കണ്ടതിൽ സന്തോഷം",
+                "transliteration": "Ninne Kandathil Santhosham",
+                "meaning": "Nice to meet you"
+            },
+            {
+                "phrase": "നീ എവിടെനിന്ന് വരുന്നു?",
+                "transliteration": "Nee Evideninnu Varunnu?",
+                "meaning": "Where are you from?"
+            },
+            {
+                "phrase": "ഞാൻ ... നിന്ന് വരുന്നു",
+                "transliteration": "Njan ... Ninnu Varunnu",
+                "meaning": "I am from..."
+            },
+            {
+                "phrase": "നീ എന്താണ് ചെയ്യുന്നത്?",
+                "transliteration": "Nee Enthanu Cheyyunnath?",
+                "meaning": "What do you do?"
+            },
+            {
+                "phrase": "ഞാൻ ഒരു വിദ്യാർത്ഥിയാണ്",
+                "transliteration": "Njan Oru Vidyarthiyanu",
+                "meaning": "I am a student"
+            },
+            {
+                "phrase": "ഞാൻ ... ആയി ജോലി ചെയ്യുന്നു",
+                "transliteration": "Njan ... Aayi Joli Cheyyunnu",
+                "meaning": "I work as a..."
+            },
+            {
+                "phrase": "നീ വിവാഹിതനാണോ/വിവാഹിതയാണോ?",
+                "transliteration": "Nee Vivahithanano/Vivahithayano?",
+                "meaning": "Are you married?"
+            },
+            {
+                "phrase": "അതെ, ഞാൻ വിവാഹിതനാണ്/വിവാഹിതയാണ്",
+                "transliteration": "Athe, Njan Vivahithanan/Vivahithayanu",
+                "meaning": "Yes, I am married"
+            },
+            {
+                "phrase": "ഇല്ല, ഞാൻ അവിവാഹിതനാണ്",
+                "transliteration": "Illa, Njan Avivahithanan",
+                "meaning": "No, I am single"
+            }
+        ],
+        "casualConversations": [
+            {
+                "phrase": "സുഖമാണോ?",
+                "transliteration": "Sukhamaano?",
+                "meaning": "How are you?"
+            },
+            {
+                "phrase": "ഞാൻ സുഖമാണ്, നന്ദി",
+                "transliteration": "Njan Sukhamāṇ, Nandi",
+                "meaning": "I am fine, thank you"
+            },
+            {
+                "phrase": "നീയെങ്ങനെ?",
+                "transliteration": "Nee Engane?",
+                "meaning": "What about you?"
+            },
+            {
+                "phrase": "ഞാനും സുഖമാണ്",
+                "transliteration": "Njanum Sukhamāṇ",
+                "meaning": "I am also fine"
+            },
+            {
+                "phrase": "നീ എന്ത് ചെയ്യുന്നു?",
+                "transliteration": "Nee Ent Cheyyunnu?",
+                "meaning": "What are you doing?"
+            },
+            {
+                "phrase": "ഞാൻ ജോലി ചെയ്യുന്നു",
+                "transliteration": "Njan Joli Cheyyunnu",
+                "meaning": "I am working"
+            },
+            {
+                "phrase": "ഞാൻ പഠിക്കുന്നു",
+                "transliteration": "Njan Padikkunnu",
+                "meaning": "I am studying"
+            },
+            {
+                "phrase": "ഇന്ന് നിന്റെ പ്ലാൻ എന്താണ്?",
+                "transliteration": "Innu Ninte Plan Enthanu?",
+                "meaning": "What’s your plan for today?"
+            },
+            {
+                "phrase": "എനിക്ക് ഒരു പ്ലാനും ഇല്ല",
+                "transliteration": "Enikku Oru Planum Illa",
+                "meaning": "I have no plans"
+            },
+            {
+                "phrase": "നമുക്ക് പുറത്ത് പോകാമോ?",
+                "transliteration": "Namukku Purathu Pokamo?",
+                "meaning": "Can we hangout?"
+            },
+            {
+                "phrase": "തീർച്ചയായും",
+                "transliteration": "Theerchayayum",
+                "meaning": "Sure!"
+            }
+        ],
+        "askingForHelp": [
+            {
+                "phrase": "നീ എന്നെ സഹായിക്കുമോ?",
+                "transliteration": "Nee Enne Sahayikkumo?",
+                "meaning": "Can you help me?"
+            },
+            {
+                "phrase": "എനിക്ക് സഹായം വേണം",
+                "transliteration": "Enikku Sahayam Venam",
+                "meaning": "I need help"
+            },
+            {
+                "phrase": "വഴി കാണിച്ചുതരാമോ?",
+                "transliteration": "Vazhi Kaanichu Tharamo?",
+                "meaning": "Can you show me the way?"
+            },
+            {
+                "phrase": "ഞാൻ വഴിതെറ്റി",
+                "transliteration": "Njan Vazhitheri",
+                "meaning": "I am lost"
+            },
+            {
+                "phrase": "ഏറ്റവും അടുത്തുള്ള ഹോട്ടൽ എവിടെ?",
+                "transliteration": "Ettavum Aduthulla Hotel Evide?",
+                "meaning": "Where is the nearest hotel?"
+            },
+            {
+                "phrase": "എനിക്ക് മനസിലാകുന്നില്ല",
+                "transliteration": "Enikku Manasilākunnilla",
+                "meaning": "I don’t understand"
+            },
+            {
+                "phrase": "ദയവായി വീണ്ടും പറയാമോ?",
+                "transliteration": "Dayavāyi Veendum Parayamo?",
+                "meaning": "Can you repeat?"
+            }
+        ],
+        "basicRequests": [
+            {
+                "phrase": "എനിക്ക് വെള്ളം തരാമോ?",
+                "transliteration": "Enikku Vellam Tharamo?",
+                "meaning": "Can I get water?"
+            },
+            {
+                "phrase": "നീ ഒരു ടാക്സി വിളിക്കാമോ?",
+                "transliteration": "Nee Oru Taxi Vilikkamo?",
+                "meaning": "Can you call a taxi?"
+            },
+            {
+                "phrase": "ടോയ്ലറ്റ് എവിടെയാണ്?",
+                "transliteration": "Toilet Evideyanu?",
+                "meaning": "Where is the bathroom?"
+            },
+            {
+                "phrase": "ഞാൻ വീട്ടിലേക്ക് പോകണം",
+                "transliteration": "Njan Vittilekku Pokanam",
+                "meaning": "I need to go home"
+            },
+            {
+                "phrase": "എനിക്ക് പണമില്ല",
+                "transliteration": "Enikku Panamilla",
+                "meaning": "I don’t have money"
+            },
+            {
+                "phrase": "എന്റെ ഫോൺ ചാർജ് ചെയ്യാമോ?",
+                "transliteration": "Ente Phone Charge Cheyyamo?",
+                "meaning": "Can I charge my phone?"
+            }
+        ],
+        "endingConversation": [
+            {
+                "phrase": "നിന്നോട് സംസാരിച്ചതിൽ സന്തോഷമുണ്ടായി",
+                "transliteration": "Ninnod Samsarichathil Santhoshamundayi",
+                "meaning": "It was nice talking to you"
+            },
+            {
+                "phrase": "ഞാൻ ഇപ്പോൾ പോകണം",
+                "transliteration": "Njan Ippol Pokanam",
+                "meaning": "I have to leave now"
+            },
+            {
+                "phrase": "പിന്നെ കാണാം",
+                "transliteration": "Pinne Kaanam",
+                "meaning": "See you later"
+            },
+            {
+                "phrase": "ശ്രദ്ധയോടെ",
+                "transliteration": "Shraddhayōṭe",
+                "meaning": "Take care"
+            }
+        ]
+    }
+}
