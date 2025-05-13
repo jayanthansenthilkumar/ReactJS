@@ -1,0 +1,839 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "customer@example.com",
+      "password": "password123",
+      "role": "customer",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "phone": "555-123-4567",
+      "createdAt": "2025-01-15T08:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "admin@example.com",
+      "password": "password123",
+      "role": "admin",
+      "address": {
+        "street": "456 Market St",
+        "city": "Business City",
+        "state": "CA",
+        "zipCode": "94105",
+        "country": "USA"
+      },
+      "phone": "555-987-6543",
+      "createdAt": "2025-01-10T14:45:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Alex Johnson",
+      "email": "superadmin@example.com",
+      "password": "password123",
+      "role": "superadmin",
+      "address": {
+        "street": "789 Corporate Blvd",
+        "city": "Metro City",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA"
+      },
+      "phone": "555-111-2222",
+      "createdAt": "2025-01-05T10:15:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Maria Garcia",
+      "email": "maria@example.com",
+      "password": "password123",
+      "role": "customer",
+      "address": {
+        "street": "222 Park Ave",
+        "city": "Sunshine",
+        "state": "FL",
+        "zipCode": "33101",
+        "country": "USA"
+      },
+      "phone": "555-333-4444",
+      "createdAt": "2025-02-03T09:20:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "James Wilson",
+      "email": "james@example.com",
+      "password": "password123",
+      "role": "admin",
+      "address": {
+        "street": "555 Shop St",
+        "city": "Marketplace",
+        "state": "TX",
+        "zipCode": "75201",
+        "country": "USA"
+      },
+      "phone": "555-555-5555",
+      "createdAt": "2025-01-20T11:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Emma Brown",
+      "email": "emma@example.com",
+      "password": "password123",
+      "role": "customer",
+      "address": {
+        "street": "777 Maple Dr",
+        "city": "Greenville",
+        "state": "OR",
+        "zipCode": "97201",
+        "country": "USA"
+      },
+      "phone": "555-666-7777",
+      "createdAt": "2025-02-15T13:40:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "David Lee",
+      "email": "david@example.com",
+      "password": "password123",
+      "role": "admin",
+      "address": {
+        "street": "888 Organic Ln",
+        "city": "Farmland",
+        "state": "WA",
+        "zipCode": "98101",
+        "country": "USA"
+      },
+      "phone": "555-888-9999",
+      "createdAt": "2025-01-25T15:50:00.000Z"
+    }
+  ],
+  "categories": [
+    { "id": "1", "name": "Fruits & Vegetables" },
+    { "id": "2", "name": "Dairy & Eggs" },
+    { "id": "3", "name": "Meat & Poultry" },
+    { "id": "4", "name": "Bakery" },
+    { "id": "5", "name": "Beverages" },
+    { "id": "6", "name": "Snacks" },
+    { "id": "7", "name": "Organic" },
+    { "id": "8", "name": "Canned Goods" },
+    { "id": "9", "name": "Frozen Foods" },
+    { "id": "10", "name": "Household" }
+  ],
+  "shops": [
+    {
+      "id": "1",
+      "name": "Fresh Market",
+      "description": "The freshest produce in town",
+      "ownerId": "2",
+      "logoUrl": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "approved": true,
+      "address": {
+        "street": "456 Market St",
+        "city": "Business City",
+        "state": "CA",
+        "zipCode": "94105",
+        "country": "USA"
+      },
+      "categories": ["1", "2", "3", "7"],
+      "rating": 4.8,
+      "createdAt": "2025-01-15T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Organic Paradise",
+      "description": "100% Organic products",
+      "ownerId": "5",
+      "logoUrl": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "approved": true,
+      "address": {
+        "street": "555 Shop St",
+        "city": "Marketplace",
+        "state": "TX",
+        "zipCode": "75201",
+        "country": "USA"
+      },
+      "categories": ["1", "2", "6", "7"],
+      "rating": 4.7,
+      "createdAt": "2025-01-20T11:45:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Green Farms",
+      "description": "Direct from our farms to your table",
+      "ownerId": "7",
+      "logoUrl": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "approved": true,
+      "address": {
+        "street": "888 Organic Ln",
+        "city": "Farmland",
+        "state": "WA",
+        "zipCode": "98101",
+        "country": "USA"
+      },
+      "categories": ["1", "3", "7"],
+      "rating": 4.6,
+      "createdAt": "2025-01-25T16:20:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Daily Bread Bakery",
+      "description": "Freshly baked goods every day",
+      "ownerId": "2",
+      "logoUrl": "https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "approved": true,
+      "address": {
+        "street": "123 Bakery Ave",
+        "city": "Business City",
+        "state": "CA",
+        "zipCode": "94106",
+        "country": "USA"
+      },
+      "categories": ["4", "6"],
+      "rating": 4.9,
+      "createdAt": "2025-02-01T08:15:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Dairy Delights",
+      "description": "Premium dairy products",
+      "ownerId": "5",
+      "logoUrl": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "approved": true,
+      "address": {
+        "street": "789 Dairy Rd",
+        "city": "Marketplace",
+        "state": "TX",
+        "zipCode": "75202",
+        "country": "USA"
+      },
+      "categories": ["2"],
+      "rating": 4.5,
+      "createdAt": "2025-02-10T10:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Butcher's Block",
+      "description": "Premium meats and poultry",
+      "ownerId": "7",
+      "logoUrl": "https://images.unsplash.com/photo-1545155290-45a359e7b3d9?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "approved": true,
+      "address": {
+        "street": "555 Butcher St",
+        "city": "Farmland",
+        "state": "WA",
+        "zipCode": "98102",
+        "country": "USA"
+      },
+      "categories": ["3"],
+      "rating": 4.7,
+      "createdAt": "2025-02-15T14:45:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Pantry Essentials",
+      "description": "All your pantry needs",
+      "ownerId": "2",
+      "logoUrl": "https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "approved": false,
+      "address": {
+        "street": "321 Pantry Ln",
+        "city": "Business City",
+        "state": "CA",
+        "zipCode": "94107",
+        "country": "USA"
+      },
+      "categories": ["8", "10"],
+      "rating": 0,
+      "createdAt": "2025-03-01T09:20:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Organic Apples",
+      "description": "Fresh organic apples from local farms",
+      "price": 5.99,
+      "imageUrl": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "1",
+      "shopId": "1",
+      "inStock": 50,
+      "createdAt": "2025-01-16T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Artisan Bread",
+      "description": "Freshly baked artisan bread",
+      "price": 6.99,
+      "imageUrl": "https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "4",
+      "shopId": "1",
+      "inStock": 20,
+      "createdAt": "2025-01-16T10:15:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Organic Milk",
+      "description": "Fresh organic milk from local farms",
+      "price": 4.99,
+      "imageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "2",
+      "shopId": "1",
+      "inStock": 30,
+      "createdAt": "2025-01-16T10:30:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Free-Range Eggs",
+      "description": "Free-range eggs from happy chickens",
+      "price": 5.49,
+      "imageUrl": "https://images.unsplash.com/photo-1598965675045-45c5e72c7d05?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "2",
+      "shopId": "1",
+      "inStock": 40,
+      "createdAt": "2025-01-16T10:45:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Organic Spinach",
+      "description": "Fresh organic spinach",
+      "price": 3.99,
+      "imageUrl": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "1",
+      "shopId": "1",
+      "inStock": 25,
+      "createdAt": "2025-01-16T11:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Grass-Fed Ground Beef",
+      "description": "Premium grass-fed ground beef",
+      "price": 9.99,
+      "imageUrl": "https://images.unsplash.com/photo-1551135049-8a33b5883817?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "3",
+      "shopId": "1",
+      "inStock": 15,
+      "createdAt": "2025-01-16T11:15:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Organic Carrots",
+      "description": "Fresh organic carrots",
+      "price": 2.99,
+      "imageUrl": "https://images.unsplash.com/photo-1447175008436-054170c2e979?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "1",
+      "shopId": "2",
+      "inStock": 60,
+      "createdAt": "2025-01-21T09:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "Organic Yogurt",
+      "description": "Creamy organic yogurt",
+      "price": 4.49,
+      "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "2",
+      "shopId": "2",
+      "inStock": 35,
+      "createdAt": "2025-01-21T09:15:00.000Z"
+    },
+    {
+      "id": "9",
+      "name": "Granola Bars",
+      "description": "Healthy organic granola bars",
+      "price": 6.99,
+      "imageUrl": "https://images.unsplash.com/photo-1590080875238-1a31a7a6413e?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "6",
+      "shopId": "2",
+      "inStock": 45,
+      "createdAt": "2025-01-21T09:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "name": "Organic Berries Mix",
+      "description": "Fresh organic mixed berries",
+      "price": 7.99,
+      "imageUrl": "https://images.unsplash.com/photo-1596591868231-05e874ede473?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "1",
+      "shopId": "2",
+      "inStock": 20,
+      "createdAt": "2025-01-21T09:45:00.000Z"
+    },
+    {
+      "id": "11",
+      "name": "Organic Kale",
+      "description": "Fresh organic kale",
+      "price": 3.49,
+      "imageUrl": "https://images.unsplash.com/photo-1524179091875-bf99a9a6af57?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "1",
+      "shopId": "3",
+      "inStock": 40,
+      "createdAt": "2025-01-26T10:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "name": "Free-Range Chicken",
+      "description": "Free-range whole chicken",
+      "price": 12.99,
+      "imageUrl": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "3",
+      "shopId": "3",
+      "inStock": 15,
+      "createdAt": "2025-01-26T10:15:00.000Z"
+    },
+    {
+      "id": "13",
+      "name": "Organic Tomatoes",
+      "description": "Fresh organic tomatoes",
+      "price": 4.49,
+      "imageUrl": "https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "1",
+      "shopId": "3",
+      "inStock": 30,
+      "createdAt": "2025-01-26T10:30:00.000Z"
+    },
+    {
+      "id": "14",
+      "name": "Croissants",
+      "description": "Freshly baked butter croissants",
+      "price": 8.99,
+      "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "4",
+      "shopId": "4",
+      "inStock": 25,
+      "createdAt": "2025-02-02T09:00:00.000Z"
+    },
+    {
+      "id": "15",
+      "name": "Sourdough Bread",
+      "description": "Traditional sourdough bread",
+      "price": 7.49,
+      "imageUrl": "https://images.unsplash.com/photo-1585478259715-1c690152188f?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "4",
+      "shopId": "4",
+      "inStock": 20,
+      "createdAt": "2025-02-02T09:15:00.000Z"
+    },
+    {
+      "id": "16",
+      "name": "Cinnamon Rolls",
+      "description": "Freshly baked cinnamon rolls",
+      "price": 9.99,
+      "imageUrl": "https://images.unsplash.com/photo-1583274043353-56af62f7c34b?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "4",
+      "shopId": "4",
+      "inStock": 15,
+      "createdAt": "2025-02-02T09:30:00.000Z"
+    },
+    {
+      "id": "17",
+      "name": "Chocolate Chip Cookies",
+      "description": "Freshly baked chocolate chip cookies",
+      "price": 6.99,
+      "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "4",
+      "shopId": "4",
+      "inStock": 30,
+      "createdAt": "2025-02-02T09:45:00.000Z"
+    },
+    {
+      "id": "18",
+      "name": "Organic Cheese Selection",
+      "description": "Assorted organic cheeses",
+      "price": 14.99,
+      "imageUrl": "https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "2",
+      "shopId": "5",
+      "inStock": 10,
+      "createdAt": "2025-02-11T10:00:00.000Z"
+    },
+    {
+      "id": "19",
+      "name": "Greek Yogurt",
+      "description": "Creamy Greek yogurt",
+      "price": 5.49,
+      "imageUrl": "https://images.unsplash.com/photo-1610504064768-83d6cc7d2bcb?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "2",
+      "shopId": "5",
+      "inStock": 25,
+      "createdAt": "2025-02-11T10:15:00.000Z"
+    },
+    {
+      "id": "20",
+      "name": "Organic Butter",
+      "description": "Premium organic butter",
+      "price": 6.99,
+      "imageUrl": "https://images.unsplash.com/photo-1589985270826-4b7bb135ab9d?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "2",
+      "shopId": "5",
+      "inStock": 20,
+      "createdAt": "2025-02-11T10:30:00.000Z"
+    },
+    {
+      "id": "21",
+      "name": "Organic Heavy Cream",
+      "description": "Fresh organic heavy cream",
+      "price": 4.99,
+      "imageUrl": "https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "2",
+      "shopId": "5",
+      "inStock": 15,
+      "createdAt": "2025-02-11T10:45:00.000Z"
+    },
+    {
+      "id": "22",
+      "name": "Ribeye Steak",
+      "description": "Premium grass-fed ribeye steak",
+      "price": 18.99,
+      "imageUrl": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "3",
+      "shopId": "6",
+      "inStock": 10,
+      "createdAt": "2025-02-16T09:00:00.000Z"
+    },
+    {
+      "id": "23",
+      "name": "Chicken Breasts",
+      "description": "Boneless, skinless chicken breasts",
+      "price": 10.99,
+      "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "3",
+      "shopId": "6",
+      "inStock": 20,
+      "createdAt": "2025-02-16T09:15:00.000Z"
+    },
+    {
+      "id": "24",
+      "name": "Ground Turkey",
+      "description": "Lean ground turkey",
+      "price": 8.99,
+      "imageUrl": "https://images.unsplash.com/photo-1606728035253-49e8a23146de?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "3",
+      "shopId": "6",
+      "inStock": 15,
+      "createdAt": "2025-02-16T09:30:00.000Z"
+    },
+    {
+      "id": "25",
+      "name": "Pork Chops",
+      "description": "Center-cut pork chops",
+      "price": 11.99,
+      "imageUrl": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "3",
+      "shopId": "6",
+      "inStock": 12,
+      "createdAt": "2025-02-16T09:45:00.000Z"
+    },
+    {
+      "id": "26",
+      "name": "Organic Blueberries",
+      "description": "Fresh organic blueberries",
+      "price": 6.99,
+      "imageUrl": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "1",
+      "shopId": "2",
+      "inStock": 18,
+      "createdAt": "2025-01-22T09:00:00.000Z"
+    },
+    {
+      "id": "27",
+      "name": "Organic Avocados",
+      "description": "Ripe organic avocados",
+      "price": 5.99,
+      "imageUrl": "https://images.unsplash.com/photo-1519162808019-7de1f919b556?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "1",
+      "shopId": "3",
+      "inStock": 22,
+      "createdAt": "2025-01-27T10:00:00.000Z"
+    },
+    {
+      "id": "28",
+      "name": "Baguette",
+      "description": "Traditional French baguette",
+      "price": 3.99,
+      "imageUrl": "https://images.unsplash.com/photo-1549931319-a545dcf3bc7c?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "4",
+      "shopId": "4",
+      "inStock": 28,
+      "createdAt": "2025-02-03T09:00:00.000Z"
+    },
+    {
+      "id": "29",
+      "name": "Cottage Cheese",
+      "description": "Fresh cottage cheese",
+      "price": 4.49,
+      "imageUrl": "https://images.unsplash.com/photo-1559561853-08451507cbe7?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "2",
+      "shopId": "5",
+      "inStock": 17,
+      "createdAt": "2025-02-12T10:00:00.000Z"
+    },
+    {
+      "id": "30",
+      "name": "Lamb Chops",
+      "description": "Premium lamb chops",
+      "price": 16.99,
+      "imageUrl": "https://images.unsplash.com/photo-1608500218890-c4f9880f0b07?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+      "category": "3",
+      "shopId": "6",
+      "inStock": 8,
+      "createdAt": "2025-02-17T09:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "product": {
+            "id": "1",
+            "name": "Organic Apples",
+            "description": "Fresh organic apples from local farms",
+            "price": 5.99,
+            "imageUrl": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "1",
+            "shopId": "1",
+            "inStock": 50,
+            "createdAt": "2025-01-16T10:00:00.000Z"
+          },
+          "quantity": 2,
+          "unitPrice": 5.99
+        },
+        {
+          "productId": "3",
+          "product": {
+            "id": "3",
+            "name": "Organic Milk",
+            "description": "Fresh organic milk from local farms",
+            "price": 4.99,
+            "imageUrl": "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "2",
+            "shopId": "1",
+            "inStock": 30,
+            "createdAt": "2025-01-16T10:30:00.000Z"
+          },
+          "quantity": 1,
+          "unitPrice": 4.99
+        }
+      ],
+      "totalAmount": 16.97,
+      "status": "delivered",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "createdAt": "2025-02-10T14:30:00.000Z",
+      "updatedAt": "2025-02-12T09:15:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "4",
+      "items": [
+        {
+          "productId": "14",
+          "product": {
+            "id": "14",
+            "name": "Croissants",
+            "description": "Freshly baked butter croissants",
+            "price": 8.99,
+            "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "4",
+            "shopId": "4",
+            "inStock": 25,
+            "createdAt": "2025-02-02T09:00:00.000Z"
+          },
+          "quantity": 2,
+          "unitPrice": 8.99
+        },
+        {
+          "productId": "17",
+          "product": {
+            "id": "17",
+            "name": "Chocolate Chip Cookies",
+            "description": "Freshly baked chocolate chip cookies",
+            "price": 6.99,
+            "imageUrl": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "4",
+            "shopId": "4",
+            "inStock": 30,
+            "createdAt": "2025-02-02T09:45:00.000Z"
+          },
+          "quantity": 1,
+          "unitPrice": 6.99
+        }
+      ],
+      "totalAmount": 24.97,
+      "status": "shipped",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "street": "222 Park Ave",
+        "city": "Sunshine",
+        "state": "FL",
+        "zipCode": "33101",
+        "country": "USA"
+      },
+      "createdAt": "2025-03-05T11:45:00.000Z",
+      "updatedAt": "2025-03-06T08:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "6",
+      "items": [
+        {
+          "productId": "18",
+          "product": {
+            "id": "18",
+            "name": "Organic Cheese Selection",
+            "description": "Assorted organic cheeses",
+            "price": 14.99,
+            "imageUrl": "https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "2",
+            "shopId": "5",
+            "inStock": 10,
+            "createdAt": "2025-02-11T10:00:00.000Z"
+          },
+          "quantity": 1,
+          "unitPrice": 14.99
+        },
+        {
+          "productId": "19",
+          "product": {
+            "id": "19",
+            "name": "Greek Yogurt",
+            "description": "Creamy Greek yogurt",
+            "price": 5.49,
+            "imageUrl": "https://images.unsplash.com/photo-1610504064768-83d6cc7d2bcb?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "2",
+            "shopId": "5",
+            "inStock": 25,
+            "createdAt": "2025-02-11T10:15:00.000Z"
+          },
+          "quantity": 2,
+          "unitPrice": 5.49
+        }
+      ],
+      "totalAmount": 25.97,
+      "status": "delivered",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "street": "777 Maple Dr",
+        "city": "Greenville",
+        "state": "OR",
+        "zipCode": "97201",
+        "country": "USA"
+      },
+      "createdAt": "2025-03-10T15:20:00.000Z",
+      "updatedAt": "2025-03-12T10:45:00.000Z"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "22",
+          "product": {
+            "id": "22",
+            "name": "Ribeye Steak",
+            "description": "Premium grass-fed ribeye steak",
+            "price": 18.99,
+            "imageUrl": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "3",
+            "shopId": "6",
+            "inStock": 10,
+            "createdAt": "2025-02-16T09:00:00.000Z"
+          },
+          "quantity": 1,
+          "unitPrice": 18.99
+        },
+        {
+          "productId": "23",
+          "product": {
+            "id": "23",
+            "name": "Chicken Breasts",
+            "description": "Boneless, skinless chicken breasts",
+            "price": 10.99,
+            "imageUrl": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "3",
+            "shopId": "6",
+            "inStock": 20,
+            "createdAt": "2025-02-16T09:15:00.000Z"
+          },
+          "quantity": 1,
+          "unitPrice": 10.99
+        }
+      ],
+      "totalAmount": 29.98,
+      "status": "processing",
+      "paymentStatus": "paid",
+      "shippingAddress": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "createdAt": "2025-04-05T09:30:00.000Z",
+      "updatedAt": "2025-04-05T14:15:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": "4",
+      "items": [
+        {
+          "productId": "9",
+          "product": {
+            "id": "9",
+            "name": "Granola Bars",
+            "description": "Healthy organic granola bars",
+            "price": 6.99,
+            "imageUrl": "https://images.unsplash.com/photo-1590080875238-1a31a7a6413e?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "6",
+            "shopId": "2",
+            "inStock": 45,
+            "createdAt": "2025-01-21T09:30:00.000Z"
+          },
+          "quantity": 3,
+          "unitPrice": 6.99
+        },
+        {
+          "productId": "10",
+          "product": {
+            "id": "10",
+            "name": "Organic Berries Mix",
+            "description": "Fresh organic mixed berries",
+            "price": 7.99,
+            "imageUrl": "https://images.unsplash.com/photo-1596591868231-05e874ede473?auto=format&fit=crop&q=80&w=300&ixlib=rb-4.0.3",
+            "category": "1",
+            "shopId": "2",
+            "inStock": 20,
+            "createdAt": "2025-01-21T09:45:00.000Z"
+          },
+          "quantity": 2,
+          "unitPrice": 7.99
+        }
+      ],
+      "totalAmount": 36.95,
+      "status": "pending",
+      "paymentStatus": "pending",
+      "shippingAddress": {
+        "street": "222 Park Ave",
+        "city": "Sunshine",
+        "state": "FL",
+        "zipCode": "33101",
+        "country": "USA"
+      },
+      "createdAt": "2025-05-01T16:45:00.000Z"
+    }
+  ]
+}

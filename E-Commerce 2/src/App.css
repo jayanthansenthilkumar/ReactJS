@@ -1,0 +1,48 @@
+/* Base app styles - using Poppins font */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Focus on using tailwind classes for styling */
+
+/* Micro-interactions */
+.hover-grow {
+  transition: transform 0.3s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.03);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -5px rgba(74, 124, 89, 0.1);
+}
+
+/* Animation for badges and highlights */
+@keyframes pulse-subtle {
+  0% { box-shadow: 0 0 0 0 rgba(74, 124, 89, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(74, 124, 89, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(74, 124, 89, 0); }
+}
+
+.pulse-highlight {
+  animation: pulse-subtle 2s infinite;
+}
+
+/* Organic product badge */
+.organic-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(74, 124, 89, 0.9);
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  z-index: 5;
+}
