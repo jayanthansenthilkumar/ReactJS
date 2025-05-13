@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <h1>Task Management</h1>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </header>
+        
+        <div class="task-form">
+            <h2>Add New Task</h2>
+            <form id="task-form">
+                <div class="form-group">
+                    <input type="text" id="task-title" placeholder="Task Title" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="task-description" placeholder="Task Description" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <select id="task-priority">
+                        <option value="low">Low Priority</option>
+                        <option value="medium">Medium Priority</option>
+                        <option value="high">High Priority</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="task-date">Due Date:</label>
+                    <input type="date" id="task-date">
+                </div>
+                <button type="submit" id="submit-btn">Add Task</button>
+                <button type="button" id="update-btn" style="display: none;">Update Task</button>
+                <button type="button" id="cancel-btn" style="display: none;">Cancel</button>
+            </form>
+        </div>
+
+        <div class="task-filters">
+            <div class="search-container">
+                <input type="text" id="search-tasks" placeholder="Search tasks...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="filter-options">
+                <select id="filter-priority">
+                    <option value="all">All Priorities</option>
+                    <option value="low">Low Priority</option>
+                    <option value="medium">Medium Priority</option>
+                    <option value="high">High Priority</option>
+                </select>
+                <select id="sort-tasks">
+                    <option value="date-asc">Date (Newest First)</option>
+                    <option value="date-desc">Date (Oldest First)</option>
+                    <option value="priority">Priority</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="tasks-container">
+            <h2>Your Tasks</h2>
+            <div id="tasks-list"></div>
+        </div>
+    </div>
+    
+    <!-- Notification component -->
+    <div class="notification" id="notification">
+        <span id="notification-message"></span>
+    </div>
+
+    <!-- Confirmation Dialog -->
+    <div class="modal" id="confirm-dialog">
+        <div class="modal-content">
+            <h3>Confirm Delete</h3>
+            <p>Are you sure you want to delete this task?</p>
+            <div class="modal-actions">
+                <button id="confirm-delete">Delete</button>
+                <button id="cancel-delete">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
